@@ -1,0 +1,29 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "input.js",
+  "scripts": {
+    "start": "webpack serve --open --mode development",
+    "build": "webpack serve --open --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/polyfill": "^7.12.1",
+    "babel-preset-env": "^1.6.1",
+    "core-js": "^3.6.5",
+    "live-server": "^1.1.0",
+    "regenerator-runtime": "^0.13.5",
+    "uuid": "^8.3.2",
+    "webpack-dev-server": "^4.9.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

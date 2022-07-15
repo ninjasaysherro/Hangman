@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "input.js",
+  "homepage": "https://ninjasaysherro.github.io/Hangman",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack serve --open --mode development",
     "build": "webpack serve --open --mode production"
   },
